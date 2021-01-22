@@ -84,13 +84,11 @@ public final class GamerHandler {
   
   private void handleQuitEvent(PlayerQuitEvent event) {
     Player player = event.getPlayer();
-    
     service.execute(() -> {
       Gamer gamer = this.getGamer(player);
       if (gamer != null) {
         storage.updateGamer(gamer);
       }
     });
-    
   }
 }
