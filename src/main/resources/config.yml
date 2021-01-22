@@ -1,0 +1,7 @@
+banco-de-dados:
+  driver: 'mysql'
+  hostname: 'localhost'
+  port: 3306
+  database: 'tests'
+  username: 'root'
+  password: 'password'

@@ -1,0 +1,4 @@
+name: AluriaGame
+version: 1.0.0
+main: io.github.aluria.game.GamePlugin
+depend: [Common-Bukkit]
